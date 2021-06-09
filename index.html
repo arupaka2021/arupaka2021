@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>自己紹介</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>太田の自己紹介</h1>
+        <p>2021年入社の新入社員を紹介するよ☆</p>
+        <img src ="mcsy.png"align="right"width="370" height="120">
+        <div class="control">
+        <h2>会社情報</h2>
+            <p> 会社：三菱ケミカルシステム</p>
+            <p> 所属：ERPシステム事業部</p>
+            <a href="https://www.mitsubishichem-sys.co.jp/">三菱ケミカルシステムHP</a>
+        </div>
+
+        <div class="control">
+        <h2>基本情報</h2>
+            <p> 出身：福井県</p>
+            <p> 趣味：ランニング・読書</p>
+            <p> 特技：エイサー太鼓・PPT作り</p>
+            <p> 好きなもの：アルパカ・えびみりん焼き</p>
+            <img src="arupaka.jpg"width="240" height="330"> <img src="ebi.jpg"width="240" height="330">
+        </div>
+
+        <div class="control">
+        <img src ="tree.jpg"align="right"width="260" height="370">
+        <h2>学生時代</h2>
+            <p> 大学：東京農工大学</p>
+            <p> 専攻：大気汚染</p>
+            <p> 研究：街路樹を用いたPM2.5の大気浄化</p>
+            <a href="http://web.tuat.ac.jp/~negitoro/">研究室のHP</a>
+        </div>
+
+        <div class="control">
+        <h2>今欲しいものベスト3</h2>
+        <ol class="list">
+	        <li>UVカット帽子</li>
+	        <li>透明な水筒</li>
+            <li>テレワーク用のクッション</li>
+        </ol>
+        </div>
+
+        <div class="control">
+        <h2>スポーツ経験</h2>   
+        <table border="1" cellpadding="5"bgcolor="d5ffea">
+        <tr><th>時代</th><th>項目</th><th>実績</th><th>思い出</th></tr>
+        <tr><td>小学校</td><td>バレーボール</td><td>とても弱い</td><td>団体競技は向いてないと言われ、開き直る</td></tr>
+        <tr><td>中学校</td><td>陸上部長距離</td><td>駅伝で全国出場</td><td>ヘモグロビンが壊れて貧血になる</td></tr>
+        <tr><td>高校</td><td>山岳部</td><td>全国6位</td><td>鍋で料理すること全般が得意になる</td></tr>
+        </table>
+        </div>
+
+        <div class="control">
+        <h2>動物占い</h2>
+            <p> 下の画像から試してみてね</p>
+            <a href="http://127.0.0.1:5501/nyukai.html"><img src ="ani.png"align="center" width="500" height="300" ></a>
+        </div>
+
+        <div class="control">
+        <button type="submit"> <a href="https://www.ukima2021.site/">他の社員の自己紹介も見たい方はこちら</a></button>
+        </div>
+        <script>
+        var now = new Date(); 
+        var year = now.getFullYear();
+        var month = now.getMonth()+1;香
+        var week = now.getDay();
+        var day = now.getDate();
+        var hour = now.getHours();
+        var min = now.getMinutes();
+        var sec = now.getSeconds();
+        document.write("西暦"+year+"年"+month+"月"+day+"日　"+hour+"時"+min+"分"+sec+"秒");
+        </script>
+    </div>
+</body>
+</html>
